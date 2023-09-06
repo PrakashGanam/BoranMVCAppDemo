@@ -177,10 +177,17 @@
     <Compile Include="Migrations\202308300546580_Initial-Identity-Migration.Designer.cs">
       <DependentUpon>202308300546580_Initial-Identity-Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202309060903107_Addedstatesandcontact.cs" />
+    <Compile Include="Migrations\202309060903107_Addedstatesandcontact.Designer.cs">
+      <DependentUpon>202309060903107_Addedstatesandcontact.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\ContactwebConstants.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -260,6 +267,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202308300546580_Initial-Identity-Migration.resx">
       <DependentUpon>202308300546580_Initial-Identity-Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309060903107_Addedstatesandcontact.resx">
+      <DependentUpon>202309060903107_Addedstatesandcontact.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
